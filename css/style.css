@@ -4,8 +4,8 @@ body, html {
     padding: 0;
     font-family: 'Arial', sans-serif;
     scroll-behavior: smooth;
-    background-color: #121212; /* Black theme */
-    color: #ffffff; /* White text for readability */
+    background-color: #ffffff; /* white theme */
+    color: #000000; /* black text for readability */
 }
 
 /* Navbar */
@@ -67,7 +67,7 @@ body, html {
 .jumbotron {
     background: url('../img/hero-bg-dark.jpg') no-repeat center center;
     background-size: cover;
-    color: #ffffff;
+    color: #000000;
     padding: 100px 25px;
     text-align: center;
     margin-bottom: 0;
@@ -147,4 +147,51 @@ footer p {
         font-size: 1em;
         padding: 8px 15px;
     }
+}
+/* Style for the Hero Section */
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+    margin-bottom: 0;
+}
+
+.jumbotron h1 {
+    font-size: 3.5em;
+    font-weight: bold;
+}
+
+.jumbotron p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Featured Products */
+.container h2 {
+    margin-top: 50px;
+    font-size: 2em;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+.thumbnail .caption h3 {
+    font-size: 1.5em;
+}
+
+.thumbnail .caption p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
 }
